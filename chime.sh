@@ -24,4 +24,6 @@ then
     eval $chime \
     play - -m /home/pi/chime/gong.mp3 remix v2
    fi
+else
+    play -v 0.005 "/home/pi/chime/tick.mp3"    
 fi
